@@ -25,7 +25,7 @@ public class AppWebConfiguration {
         config.setDataSourceClassName("com.mysql.jdbc.jdbc2.optional.MysqlDataSource");
         config.addDataSourceProperty("url","jdbc:mysql://localhost:3306/aprendendospring");
         config.addDataSourceProperty("user","root");
-        config.addDataSourceProperty("password","senha");
+        config.addDataSourceProperty("password","root");
         return config;
     }
     
