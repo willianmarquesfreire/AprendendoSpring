@@ -12,7 +12,7 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-
+@org.springframework.context.annotation.Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.mycompany.controllers"})
 public class AppWebConfiguration {
